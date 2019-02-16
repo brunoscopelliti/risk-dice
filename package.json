@@ -1,0 +1,40 @@
+{
+  "name": "risk-dice",
+  "version": "0.1.0",
+  "description": "Computes wins/loses of a risk dice match",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js tests",
+    "test": "npm run lint && jest",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoscopelliti/risk-dice.git"
+  },
+  "keywords": [
+    "risk",
+    "risk battle",
+    "dice",
+    "risiko",
+    "risiko battle"
+  ],
+  "author": "Bruno Scopelliti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunoscopelliti/risk-dice/issues"
+  },
+  "homepage": "https://github.com/brunoscopelliti/risk-dice#readme",
+  "devDependencies": {
+    "eslint": "5.14.0",
+    "eslint-config-bruno": "2.0.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0",
+    "jest": "24.1.0"
+  },
+  "dependencies": {
+    "mersenne-twister": "1.1.0"
+  }
+}
