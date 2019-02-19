@@ -73,7 +73,7 @@ describe("battles", () => {
 
     expect(
       battle(3, 1)
-    ).toBe({
+    ).toEqual({
       attack: [4, 2, 1],
       defense: [2],
       result: [0, 1],
@@ -92,7 +92,7 @@ describe("battles", () => {
 
     expect(
       battle(3, 1)
-    ).toBe({
+    ).toEqual({
       attack: [3, 2, 2],
       defense: [3],
       result: [1, 0],
@@ -112,7 +112,7 @@ describe("battles", () => {
 
     expect(
       battle(3, 2)
-    ).toBe({
+    ).toEqual({
       attack: [4, 3, 1],
       defense: [3, 2],
       result: [0, 2],
@@ -132,7 +132,7 @@ describe("battles", () => {
 
     expect(
       battle(3, 2)
-    ).toBe({
+    ).toEqual({
       attack: [6, 3, 3],
       defense: [6, 2],
       result: [1, 1],
@@ -152,7 +152,7 @@ describe("battles", () => {
 
     expect(
       battle(3, 2)
-    ).toBe({
+    ).toEqual({
       attack: [6, 2, 2],
       defense: [6, 4],
       result: [2, 0],
@@ -173,7 +173,7 @@ describe("battles", () => {
 
     expect(
       battle(3, 3)
-    ).toBe({
+    ).toEqual({
       attack: [5, 5, 2],
       defense: [4, 3, 1],
       result: [0, 3],
@@ -194,7 +194,7 @@ describe("battles", () => {
 
     expect(
       battle(3, 3)
-    ).toBe({
+    ).toEqual({
       attack: [5, 5, 2],
       defense: [4, 4, 4],
       result: [1, 2],
@@ -215,7 +215,7 @@ describe("battles", () => {
 
     expect(
       battle(3, 3)
-    ).toBe({
+    ).toEqual({
       attack: [3, 2, 2],
       defense: [5, 4, 1],
       result: [2, 1],
@@ -236,7 +236,7 @@ describe("battles", () => {
 
     expect(
       battle(3, 3)
-    ).toBe({
+    ).toEqual({
       attack: [6, 3, 3],
       defense: [6, 4, 3],
       result: [3, 0],
@@ -256,7 +256,7 @@ describe("battles", () => {
 
     expect(
       battle(2, 3)
-    ).toBe({
+    ).toEqual({
       attack: [5, 4],
       defense: [4, 3, 3],
       result: [0, 2],
@@ -276,7 +276,7 @@ describe("battles", () => {
 
     expect(
       battle(2, 3)
-    ).toBe({
+    ).toEqual({
       attack: [4, 1],
       defense: [3, 2, 2],
       result: [1, 1],
@@ -296,7 +296,7 @@ describe("battles", () => {
 
     expect(
       battle(2, 3)
-    ).toBe({
+    ).toEqual({
       attack: [2, 2],
       defense: [3, 3, 1],
       result: [2, 0],
@@ -315,7 +315,7 @@ describe("battles", () => {
 
     expect(
       battle(1, 3)
-    ).toBe({
+    ).toEqual({
       attack: [4],
       defense: [3, 3, 2],
       result: [0, 1],
@@ -334,7 +334,7 @@ describe("battles", () => {
 
     expect(
       battle(1, 3)
-    ).toBe({
+    ).toEqual({
       attack: [5],
       defense: [5, 1, 1],
       result: [1, 0],
@@ -352,7 +352,7 @@ describe("battles", () => {
 
     expect(
       battle(2, 1)
-    ).toBe({
+    ).toEqual({
       attack: [5, 1],
       defense: [2],
       result: [0, 1],
@@ -370,7 +370,7 @@ describe("battles", () => {
 
     expect(
       battle(2, 1)
-    ).toBe({
+    ).toEqual({
       attack: [5, 1],
       defense: [6],
       result: [1, 0],
@@ -389,7 +389,7 @@ describe("battles", () => {
 
     expect(
       battle(2, 2)
-    ).toBe({
+    ).toEqual({
       attack: [5, 2],
       defense: [4, 1],
       result: [0, 2],
@@ -408,7 +408,7 @@ describe("battles", () => {
 
     expect(
       battle(2, 2)
-    ).toBe({
+    ).toEqual({
       attack: [6, 2],
       defense: [5, 4],
       result: [1, 1],
@@ -427,7 +427,7 @@ describe("battles", () => {
 
     expect(
       battle(2, 2)
-    ).toBe({
+    ).toEqual({
       attack: [4, 2],
       defense: [5, 2],
       result: [2, 0],
@@ -445,7 +445,7 @@ describe("battles", () => {
 
     expect(
       battle(1, 2)
-    ).toBe({
+    ).toEqual({
       attack: [5],
       defense: [4, 2],
       result: [0, 1],
@@ -463,7 +463,7 @@ describe("battles", () => {
 
     expect(
       battle(1, 2)
-    ).toBe({
+    ).toEqual({
       attack: [3],
       defense: [4, 2],
       result: [1, 0],
@@ -480,7 +480,7 @@ describe("battles", () => {
 
     expect(
       battle(1, 1)
-    ).toBe({
+    ).toEqual({
       attack: [2],
       defense: [1],
       result: [0, 1],
@@ -497,7 +497,7 @@ describe("battles", () => {
 
     expect(
       battle(1, 1)
-    ).toBe({
+    ).toEqual({
       attack: [1],
       defense: [1],
       result: [1, 0],
