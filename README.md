@@ -5,7 +5,7 @@ Computes wins/loses of a risk dice match.
 ## Install
 
 ```bash
-npm install risk-dice
+npm install risk-dice-simulator
 ```
 
 ## Rules
@@ -18,7 +18,7 @@ In case of draw, defender wins.
 ## Usage
 
 ```js
-const battle = require("risk-dice");
+const battle = require("risk-dice-simulator");
 
 const { result, attack, defense } = battle(/* attackerUnits */ 3, /* defenterUnits */ 2);
 
