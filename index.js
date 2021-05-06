@@ -29,8 +29,8 @@ const battle =
       throw new Error("Defender invalid unit: '" + defense + "'.");
     }
 
-    var attackDices = [];
-    var defenseDices = [];
+    const attackDices = [];
+    const defenseDices = [];
 
     for (let index = 0; index < attack + defense; index++) {
       if (index % 2) {
@@ -50,8 +50,8 @@ const battle =
 
     attackDices.sort((a, b) => b - a);
     defenseDices.sort((a, b) => b - a);
-    var lostAttack = 0;
-    var lostDefense = 0;
+    let lostAttack = 0;
+    let lostDefense = 0;
     for (let index = 0; index < Math.min(defenseDices.length, attackDices.length); index++) {
       if (defenseDices[index] >= attackDices[index]) {
         lostAttack = lostAttack + 1;
